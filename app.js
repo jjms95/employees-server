@@ -46,6 +46,21 @@ app.post('/employees', async (req, res) => {
   const employee = req.body;
   const employees = loadEmployees();
 
+  if (!employee.id || typeof employee.id !== 'string') {
+    res.status(400).send({ message: 'invalid employee id' });
+    return;
+  }
+
+  if (!employee.name || typeof employee.name !== 'string') {
+    res.status(400).send({ message: 'invalid employee name' });
+    return;
+  }
+
+  if (!employee.role || typeof employee.role !== 'string') {
+    res.status(400).send({ message: 'invalid employee role' });
+    return;
+  }
+
   const employeeExists = employees.find(emp => emp.id === employee.id);
   if (employeeExists) {
     res.status(400).send({ message: 'Employee id already exists' });

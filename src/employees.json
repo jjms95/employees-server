@@ -1,1 +1,262 @@
-[{"id":"6994ee054e2520cd9e7d202d","name":"Juliana Hanson","role":"ingeniero"},{"id":"6994ee05c05f238d30914b9e","name":"Rice Hawkins","role":"secretario"},{"id":"6994ee053c6dae6b12a73969","name":"Sheri Cruz","role":"contador"},{"id":"6994ee0535d9075b27674332","name":"Hallie Payne","role":"ingeniero"},{"id":"6994ee05f9264baed70a32b6","name":"Eva Anthony","role":"gerente"},{"id":"6994ee0577ca1a368ebe02ab","name":"Greta Chang","role":"gerente"},{"id":"6994ee05ac499b8d6aa3e676","name":"Charity Brooks","role":"gerente"},{"id":"6994ee05cb194b1c1ccbe7c7","name":"Blackwell Patton","role":"secretario"},{"id":"6994ee05cfdd7f67a71fa54b","name":"Lyons Lucas","role":"secretario"},{"id":"6994ee056d0cbc2c79b222f5","name":"Alexandria Puckett","role":"ingeniero"},{"id":"6994ee05b0028546b592dcfd","name":"Webb Tyson","role":"gerente"},{"id":"6994ee056d83c01b2b148fb2","name":"Della Atkinson","role":"contador"},{"id":"6994ee05576fc6b2e42152e4","name":"Gena Henry","role":"contador"},{"id":"6994ee056bf2df50671f0f21","name":"Bridget Petersen","role":"gerente"},{"id":"6994ee053c1d440cb7e1e764","name":"Hutchinson Richard","role":"ingeniero"},{"id":"6994ee058b820ad3df247899","name":"Stokes Leach","role":"ingeniero"},{"id":"6994ee05a7fba3ed45fb5c3e","name":"Dyer Vasquez","role":"ingeniero"},{"id":"6994ee05e2ba675553d231d0","name":"Oliver Haley","role":"secretario"},{"id":"6994ee05b16964f5e0bce427","name":"Mathis Swanson","role":"ingeniero"},{"id":"6994ee059653771a498c4bfa","name":"Fischer Travis","role":"gerente"},{"id":"6994ee05e11fa943d396ecb9","name":"Constance Brown","role":"contador"},{"id":"6994ee05081c47159e4218af","name":"Tamra Finch","role":"ingeniero"},{"id":"6994ee05b101c749b98d1306","name":"Mathews Dejesus","role":"ingeniero"},{"id":"6994ee0598ddbc7b10124f5c","name":"Wade Irwin","role":"contador"},{"id":"6994ee05f420c0f8152a5d5a","name":"Beard Campos","role":"contador"},{"id":"6994ee05e3bf18c51f3188ff","name":"Helga Calhoun","role":"ingeniero"},{"id":"6994ee05090bc66d170a92bc","name":"Buckley Robinson","role":"secretario"},{"id":"6994ee05cb0eace28de31a70","name":"Tran Barber","role":"secretario"},{"id":"6994ee05382ebd0de69437c0","name":"Kendra Lowery","role":"ingeniero"},{"id":"6994ee0580baded61536816d","name":"Gay Johns","role":"gerente"},{"id":"6994ee05abef311bb3a99861","name":"Nichole Mooney","role":"secretario"},{"id":"6994ee05e0f5320000376564","name":"Baird Craft","role":"contador"},{"id":"6994ee05569977278590adf2","name":"Holder Cantu","role":"secretario"},{"id":"6994ee057f2ca3acc9b8b98b","name":"Kelly Hale","role":"secretario"},{"id":"6994ee0565b643f600bc600e","name":"Silvia Alford","role":"ingeniero"},{"id":"6994ee05c276f7f7c1b4ad57","name":"Sherman Nguyen","role":"secretario"},{"id":"6994ee05cac32722a4c27109","name":"Henson Franks","role":"contador"},{"id":"6994ee05a67c1e709274fc80","name":"Powers Humphrey","role":"contador"},{"id":"6994ee05854a56fc86865580","name":"Malone Avery","role":"contador"},{"id":"6994ee052090a27a56d88379","name":"Richardson Whitfield","role":"contador"},{"id":"6994ee052e69a34fde4543aa","name":"Allison Gibbs","role":"gerente"},{"id":"6994ee0512c593bcfd37bbff","name":"Cantu Robertson","role":"secretario"},{"id":"6994ee059d34f1c7bbad5eff","name":"Robles York","role":"gerente"},{"id":"6994ee05a5516afd30a937b2","name":"Gay Lawrence","role":"gerente"},{"id":"6994ee05ebbc613b4529ab4a","name":"Eula Huffman","role":"ingeniero"},{"id":"6994ee05134102d1821f7282","name":"Wallace Russo","role":"contador"},{"id":"6994ee051e85f9db52d840c5","name":"Bruce Head","role":"secretario"},{"id":"6994ee0521b5d09ca5023a7c","name":"Juanita Tucker","role":"secretario"},{"id":"6994ee0574bb5c26838a4391","name":"Nolan Dorsey","role":"secretario"},{"id":"6994ee055e9609719ad78952","name":"Ida Moreno","role":"ingeniero"},{"id":"6994ee0556777a2406f92253","name":"House Hill","role":"secretario"},{"id":1,"name":"Miguel Angel","role":"gerente"}]
+[
+    {
+        "id": "6994ee054e2520cd9e7d202d",
+        "name": "Juliana Hanson",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee05c05f238d30914b9e",
+        "name": "Rice Hawkins",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee053c6dae6b12a73969",
+        "name": "Sheri Cruz",
+        "role": "contador"
+    },
+    {
+        "id": "6994ee0535d9075b27674332",
+        "name": "Hallie Payne",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee05f9264baed70a32b6",
+        "name": "Eva Anthony",
+        "role": "gerente"
+    },
+    {
+        "id": "6994ee0577ca1a368ebe02ab",
+        "name": "Greta Chang",
+        "role": "gerente"
+    },
+    {
+        "id": "6994ee05ac499b8d6aa3e676",
+        "name": "Charity Brooks",
+        "role": "gerente"
+    },
+    {
+        "id": "6994ee05cb194b1c1ccbe7c7",
+        "name": "Blackwell Patton",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee05cfdd7f67a71fa54b",
+        "name": "Lyons Lucas",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee056d0cbc2c79b222f5",
+        "name": "Alexandria Puckett",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee05b0028546b592dcfd",
+        "name": "Webb Tyson",
+        "role": "gerente"
+    },
+    {
+        "id": "6994ee056d83c01b2b148fb2",
+        "name": "Della Atkinson",
+        "role": "contador"
+    },
+    {
+        "id": "6994ee05576fc6b2e42152e4",
+        "name": "Gena Henry",
+        "role": "contador"
+    },
+    {
+        "id": "6994ee056bf2df50671f0f21",
+        "name": "Bridget Petersen",
+        "role": "gerente"
+    },
+    {
+        "id": "6994ee053c1d440cb7e1e764",
+        "name": "Hutchinson Richard",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee058b820ad3df247899",
+        "name": "Stokes Leach",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee05a7fba3ed45fb5c3e",
+        "name": "Dyer Vasquez",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee05e2ba675553d231d0",
+        "name": "Oliver Haley",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee05b16964f5e0bce427",
+        "name": "Mathis Swanson",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee059653771a498c4bfa",
+        "name": "Fischer Travis",
+        "role": "gerente"
+    },
+    {
+        "id": "6994ee05e11fa943d396ecb9",
+        "name": "Constance Brown",
+        "role": "contador"
+    },
+    {
+        "id": "6994ee05081c47159e4218af",
+        "name": "Tamra Finch",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee05b101c749b98d1306",
+        "name": "Mathews Dejesus",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee0598ddbc7b10124f5c",
+        "name": "Wade Irwin",
+        "role": "contador"
+    },
+    {
+        "id": "6994ee05f420c0f8152a5d5a",
+        "name": "Beard Campos",
+        "role": "contador"
+    },
+    {
+        "id": "6994ee05e3bf18c51f3188ff",
+        "name": "Helga Calhoun",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee05090bc66d170a92bc",
+        "name": "Buckley Robinson",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee05cb0eace28de31a70",
+        "name": "Tran Barber",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee05382ebd0de69437c0",
+        "name": "Kendra Lowery",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee0580baded61536816d",
+        "name": "Gay Johns",
+        "role": "gerente"
+    },
+    {
+        "id": "6994ee05abef311bb3a99861",
+        "name": "Nichole Mooney",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee05e0f5320000376564",
+        "name": "Baird Craft",
+        "role": "contador"
+    },
+    {
+        "id": "6994ee05569977278590adf2",
+        "name": "Holder Cantu",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee057f2ca3acc9b8b98b",
+        "name": "Kelly Hale",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee0565b643f600bc600e",
+        "name": "Silvia Alford",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee05c276f7f7c1b4ad57",
+        "name": "Sherman Nguyen",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee05cac32722a4c27109",
+        "name": "Henson Franks",
+        "role": "contador"
+    },
+    {
+        "id": "6994ee05a67c1e709274fc80",
+        "name": "Powers Humphrey",
+        "role": "contador"
+    },
+    {
+        "id": "6994ee05854a56fc86865580",
+        "name": "Malone Avery",
+        "role": "contador"
+    },
+    {
+        "id": "6994ee052090a27a56d88379",
+        "name": "Richardson Whitfield",
+        "role": "contador"
+    },
+    {
+        "id": "6994ee052e69a34fde4543aa",
+        "name": "Allison Gibbs",
+        "role": "gerente"
+    },
+    {
+        "id": "6994ee0512c593bcfd37bbff",
+        "name": "Cantu Robertson",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee059d34f1c7bbad5eff",
+        "name": "Robles York",
+        "role": "gerente"
+    },
+    {
+        "id": "6994ee05a5516afd30a937b2",
+        "name": "Gay Lawrence",
+        "role": "gerente"
+    },
+    {
+        "id": "6994ee05ebbc613b4529ab4a",
+        "name": "Eula Huffman",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee05134102d1821f7282",
+        "name": "Wallace Russo",
+        "role": "contador"
+    },
+    {
+        "id": "6994ee051e85f9db52d840c5",
+        "name": "Bruce Head",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee0521b5d09ca5023a7c",
+        "name": "Juanita Tucker",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee0574bb5c26838a4391",
+        "name": "Nolan Dorsey",
+        "role": "secretario"
+    },
+    {
+        "id": "6994ee055e9609719ad78952",
+        "name": "Ida Moreno",
+        "role": "ingeniero"
+    },
+    {
+        "id": "6994ee0556777a2406f92253",
+        "name": "House Hill",
+        "role": "secretario"
+    },
+    {
+        "id": "1",
+        "name": "Miguel Angel",
+        "role": "gerente"
+    }
+]

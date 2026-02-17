@@ -2,8 +2,6 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 
-const employees = require('./src/employees.json');
-
 
 const app = express();
 
@@ -14,15 +12,26 @@ app.use(express.urlencoded({ extended: false }));
 
 const EMPLOYEES_PER_PAGE = 50;
 
+const loadEmployees = () => {
+  try {
+    const employees = fs.readFileSync('./src/employees.json', 'utf8');
+    return JSON.parse(employees);
+  } catch (err) {
+    console.error(err);
+    return [];
+  }
+};
+
 app.get('/employees', (req, res) => {
   const { name, role, page } = req.query;
+  const employees = loadEmployees();
 
   let employeesList = [...employees].sort((a, b) => a.name.localeCompare(b.name));
 
   const pageNumber = Number(page) || 0;
 
   if (name) {
-    employeesList = employeesList.filter(employee => employee.name === name);
+    employeesList = employeesList.filter(employee => employee.name.toLocaleLowerCase().includes(name.toLocaleLowerCase()));
   }
 
   if (role) {
@@ -35,6 +44,14 @@ app.get('/employees', (req, res) => {
 
 app.post('/employees', async (req, res) => {
   const employee = req.body;
+  const employees = loadEmployees();
+
+  const employeeExists = employees.find(emp => emp.id === employee.id);
+  if (employeeExists) {
+    res.status(400).send({ message: 'Employee id already exists' });
+    return;
+  }
+
   employees.push(employee);
 
   try {
@@ -48,7 +65,8 @@ app.post('/employees', async (req, res) => {
 
 app.get('/employees/:id', (req, res) => {
   const { id } = req.params;
-  const employee = employees.find(employee => employee.id === Number(id));
+  const employees = loadEmployees();
+  const employee = employees.find(employee => employee.id === id);
   if (employee) {
     res.status(200).send(employee);
   } else {
